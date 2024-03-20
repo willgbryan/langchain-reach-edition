@@ -29,7 +29,7 @@ class OllamaEndpointNotFoundError(Exception):
 
 
 class _OllamaCommon(BaseLanguageModel):
-    base_url: str = "http://localhost:11434"
+    base_url: str = "http://ollama:11434"
     """Base url the model is hosted under."""
 
     model: str = "llama2"
